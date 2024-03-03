@@ -1,0 +1,116 @@
+// Подключение шрифтов
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+// Обнуление стилей
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Общий контейнер
+body{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+// Стили для шапки сайта
+.header{
+    height: 1080px;
+    padding: 20px 0 0 0;
+    background: radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%);
+
+    &__content{
+        width: 1230px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+
+        nav{
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 60px;
+            font-family: Lato;
+            font-weight: 700;
+            opacity: 0.6;
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        &__services{
+            width: 84px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__btn{
+            width: 200px;
+            height: 52px;
+            background-color: #7772F1;
+            color: white;
+            margin-left: 340px;
+            border: none;
+            border-radius: 4px;
+            font-family: Lato;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+    }
+    
+    // Стили для баннера
+    &__banner{
+        padding: 200px 0 0 345px;
+
+        &__content{
+            
+            &__title{
+                width: 810px;
+                font-size: 72px;
+                font-family: Lato;
+                font-weight: 900;
+                color: white;
+
+                span{
+                    color: #7772F1;
+                }
+            }
+
+            &__buttons{
+                width: 402px;
+                margin: 44px 0 0 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &__btn{
+                    width: 220px;
+                    height: 52px;
+                    color: white;
+                    background: none;
+                    border: 1px solid white;
+                    border-radius: 4px;
+                    font-family: Lato;
+                    font-weight: 700;
+                    letter-spacing: 0.5px;
+                }
+
+                &__video{
+                    display: flex;
+                    align-items: center;
+                    font-family: Lato;
+                    font-weight: 700;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
