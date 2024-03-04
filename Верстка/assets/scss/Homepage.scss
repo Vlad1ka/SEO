@@ -22,6 +22,34 @@ body{
     height: 1080px;
     padding: 20px 0 0 0;
     background: radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%);
+    
+    &__img{
+        &__1{
+            position: absolute;
+            margin: 257px 0 0 245px;
+        }
+        &__2{
+            position: absolute;
+            margin: 680px 0 0 948px;
+        }
+        &__3{
+            position: absolute;
+            margin: 64px 0 0 0;
+        }
+        &__4{
+            position: absolute;
+            margin: 94px 0 0 943px;
+        }
+        &__5{
+            position: absolute;
+            margin: 290px 0 0 1140px;
+        }
+        &__6{
+            position: absolute;
+            margin: 105px 0 0 1753px;
+        }
+        
+    }
 
     &__content{
         width: 1230px;
