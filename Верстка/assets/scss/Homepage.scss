@@ -38,7 +38,7 @@ body{
         }
         &__4{
             position: absolute;
-            margin: 94px 0 0 943px;
+            margin: 113px 0 0 943px;
         }
         &__5{
             position: absolute;
@@ -104,6 +104,7 @@ body{
                 font-size: 72px;
                 font-family: Lato;
                 font-weight: 900;
+                letter-spacing: 1px;
                 color: white;
 
                 span{
@@ -139,6 +140,168 @@ body{
                 }
             }
         }
+
+        &__points{
+            width: 1231px;
+            margin: 372px 0 0 0;
+            display: flex;
+            justify-content: space-between;
+
+            &__item{
+                display: flex;
+                align-items: center;
+
+                p{
+                    font-family: Lato;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: white;
+                    margin-left: 20px;
+                }
+
+                
+            }
+
+            hr{
+                display: flex;
+
+            }
+        }
     }
 }
 
+.info{
+    padding: 120px 0 0 345px;
+    
+    &__content{
+        display: flex;
+
+        &__text{
+            width: 630px;
+            font-family: Lato;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 42px;
+            color: #1E212C;
+        }
+
+        &__img{
+            width: 495px;
+            margin: 0 0 0 105px;
+
+            &__wrapperFirst{
+                display: flex;
+                justify-content: space-between;
+            }
+            &__wrapperSecond{
+                display: flex;
+                justify-content: space-between;
+                margin: 32px 0 0 0;
+            }
+
+            &__card{
+                display: flex;
+                align-items: center;
+
+                p{
+                    width: 136px;
+                    margin: 0 0 0 16px;
+                    font-family: Lato;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #424551;
+                }
+            }
+        }
+    }
+
+    &__clients{
+        width: 1230px;
+        display: flex;
+        justify-content: space-between;
+        margin: 180px 0 0 0;
+    }
+}
+
+.agency{
+    margin: 39px 0 0 0;
+    &__background{
+        &__1{
+            position: absolute;
+            margin: 0 0 0 150px;
+            z-index: 1;
+        }
+        &__2{
+            position: absolute;
+            margin: 445px 0 0 1648px;
+        }
+        &__3{
+            position: absolute;
+            margin: 924px 0 0 0;
+        }
+    }
+
+    &__content{
+        position: relative;
+        z-index: 2;
+        width: 1230px;
+        margin: 0 0 0 345px;
+        padding: 131px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+
+        &__text{
+            margin: 80px 0 0 0;
+            font-family: Lato;
+
+            h1{
+                font-size: 46px;
+                color: #1E212C;
+            }
+
+            p{
+                width: 390px;
+                color: #787A80;
+                line-height: 25.6px;
+                margin: 40px 0 0 0;
+            }
+
+            &__btn{
+                width: 161px;
+                height: 44px;
+                background-color: #7772F1;
+                border: none;
+                border-radius: 4px;
+                margin: 48px 0 0 0;
+                font-family: Lato;
+                font-weight: 700;
+                font-size: 14px;
+                color: white;
+            }
+        }
+    }
+
+    &__achievement{
+        width: 736px;
+        margin: 180px 0 0 592px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        font-family: Lato;
+
+        h2{
+            width: 148px;
+            text-align: center;
+            margin: 53px 0 0 0;
+            position: absolute;
+            font-size: 32px;
+            color: #1E212C;
+        }
+
+        p{
+            font-size: 14px;
+            color: #424551;
+            margin: 20px 0 0 0;
+        }
+    }
+}

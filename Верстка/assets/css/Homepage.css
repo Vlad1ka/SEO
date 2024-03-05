@@ -32,7 +32,7 @@ body {
 }
 .header__img__4 {
   position: absolute;
-  margin: 94px 0 0 943px;
+  margin: 113px 0 0 943px;
 }
 .header__img__5 {
   position: absolute;
@@ -87,6 +87,7 @@ body {
   font-size: 72px;
   font-family: Lato;
   font-weight: 900;
+  letter-spacing: 1px;
   color: white;
 }
 .header__banner__content__title span {
@@ -116,4 +117,143 @@ body {
   font-family: Lato;
   font-weight: 700;
   color: white;
+}
+.header__banner__points {
+  width: 1231px;
+  margin: 372px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__banner__points__item {
+  display: flex;
+  align-items: center;
+}
+.header__banner__points__item p {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-left: 20px;
+}
+.header__banner__points hr {
+  display: flex;
+}
+
+.info {
+  padding: 120px 0 0 345px;
+}
+.info__content {
+  display: flex;
+}
+.info__content__text {
+  width: 630px;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #1E212C;
+}
+.info__content__img {
+  width: 495px;
+  margin: 0 0 0 105px;
+}
+.info__content__img__wrapperFirst {
+  display: flex;
+  justify-content: space-between;
+}
+.info__content__img__wrapperSecond {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0 0 0;
+}
+.info__content__img__card {
+  display: flex;
+  align-items: center;
+}
+.info__content__img__card p {
+  width: 136px;
+  margin: 0 0 0 16px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 21px;
+  color: #424551;
+}
+.info__clients {
+  width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  margin: 180px 0 0 0;
+}
+
+.agency {
+  margin: 39px 0 0 0;
+}
+.agency__background__1 {
+  position: absolute;
+  margin: 0 0 0 150px;
+  z-index: 1;
+}
+.agency__background__2 {
+  position: absolute;
+  margin: 445px 0 0 1648px;
+}
+.agency__background__3 {
+  position: absolute;
+  margin: 924px 0 0 0;
+}
+.agency__content {
+  position: relative;
+  z-index: 2;
+  width: 1230px;
+  margin: 0 0 0 345px;
+  padding: 131px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.agency__content__text {
+  margin: 80px 0 0 0;
+  font-family: Lato;
+}
+.agency__content__text h1 {
+  font-size: 46px;
+  color: #1E212C;
+}
+.agency__content__text p {
+  width: 390px;
+  color: #787A80;
+  line-height: 25.6px;
+  margin: 40px 0 0 0;
+}
+.agency__content__text__btn {
+  width: 161px;
+  height: 44px;
+  background-color: #7772F1;
+  border: none;
+  border-radius: 4px;
+  margin: 48px 0 0 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+.agency__achievement {
+  width: 736px;
+  margin: 180px 0 0 592px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: Lato;
+}
+.agency__achievement h2 {
+  width: 148px;
+  text-align: center;
+  margin: 53px 0 0 0;
+  position: absolute;
+  font-size: 32px;
+  color: #1E212C;
+}
+.agency__achievement p {
+  font-size: 14px;
+  color: #424551;
+  margin: 20px 0 0 0;
 }/*# sourceMappingURL=Homepage.css.map */
