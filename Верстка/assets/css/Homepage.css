@@ -293,9 +293,12 @@ body {
   border: 1px solid;
 }
 .agency__ourServices__worflow {
-  margin: 60px 0 0 0;
+  margin: 60px 0 83px 0;
 }
-.agency__ourServices__worflow__title {
+.agency__ourServices__worflow__content {
+  display: flex;
+}
+.agency__ourServices__worflow__content__text__title {
   width: 390px;
   font-family: Lato;
   font-weight: 700;
@@ -303,26 +306,27 @@ body {
   color: #1E212C;
   line-height: 42px;
 }
-.agency__ourServices__worflow__content__points {
+.agency__ourServices__worflow__content__text__points {
   margin: 24px 0 0 0;
 }
-.agency__ourServices__worflow__content__points__point {
+.agency__ourServices__worflow__content__text__points__point {
   height: 26px;
   margin: 12px 0 0 0;
   display: flex;
   align-items: center;
 }
-.agency__ourServices__worflow__content__points__point p {
+.agency__ourServices__worflow__content__text__points__point p {
   margin-left: 12px;
   font-family: Lato;
+  color: #424551;
 }
-.agency__ourServices__worflow__content__buttons {
+.agency__ourServices__worflow__content__text__buttons {
   width: 328px;
   margin: 48px 0 0 0;
   display: flex;
   justify-content: space-between;
 }
-.agency__ourServices__worflow__content__buttons__more {
+.agency__ourServices__worflow__content__text__buttons__more {
   width: 140px;
   height: 44px;
   border: 1px solid #7772F1;
@@ -333,7 +337,7 @@ body {
   font-size: 14px;
   color: #7772F1;
 }
-.agency__ourServices__worflow__content__buttons__try {
+.agency__ourServices__worflow__content__text__buttons__try {
   width: 166px;
   height: 44px;
   border: none;
@@ -343,4 +347,78 @@ body {
   font-family: Lato;
   font-size: 14px;
   font-weight: 700;
+}
+.agency__ourServices__worflow__content__img {
+  margin: 0 0 0 143px;
+}
+
+.analysis {
+  height: 556px;
+  background-color: #1E212C;
+  padding: 80px 0 0 345px;
+}
+.analysis__background {
+  position: absolute;
+  margin: 50px 0 0 1389px;
+}
+.analysis__content {
+  width: 1230px;
+  display: flex;
+  justify-content: space-between;
+}
+.analysis__content__text__title {
+  height: 60px;
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 900px;
+  color: white;
+}
+.analysis__content__text__inputs {
+  margin: 74px 0 0 0;
+}
+.analysis__content__text__inputs input {
+  height: 52px;
+  background-color: rgba(255, 255, 255, 0.1215686275);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.analysis__content__text__inputs__two {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.analysis__content__text__inputs__two input {
+  width: 285px;
+}
+.analysis__content__text__inputs__one input {
+  width: 600px;
+  margin: 58px 0 0 0;
+}
+.analysis__content__text__sending {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0 0 0;
+}
+.analysis__content__text__sending__agree {
+  width: 315px;
+  display: flex;
+  align-items: baseline;
+}
+.analysis__content__text__sending__agree p {
+  margin: 0 0 0 12px;
+  font-family: Lato;
+  line-height: 25.6px;
+  color: white;
+}
+.analysis__content__text__sending__btn {
+  width: 220px;
+  height: 52px;
+  background-color: #7772F1;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: white;
 }/*# sourceMappingURL=Homepage.css.map */
