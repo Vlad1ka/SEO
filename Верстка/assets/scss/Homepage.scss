@@ -164,7 +164,8 @@ body{
 
             hr{
                 display: flex;
-
+                border: 1px solid #DADBDD;
+                opacity: 0.4;
             }
         }
     }
@@ -302,6 +303,106 @@ body{
             font-size: 14px;
             color: #424551;
             margin: 20px 0 0 0;
+        }
+    }
+
+    &__ourServices{
+        width: 1315px;
+        margin: 0 auto;
+        margin-top: 180px;
+
+        &__title{
+            text-align: center;
+            font-family: Lato;
+            font-size: 46px;
+            font-weight: 900;
+            color: #1E212C;
+        }
+
+        &__menu{
+            width: 1230px;
+            margin: 40px 0 0 0;
+            display: flex;
+            justify-content: space-between;
+            a{
+                width: 246px;
+                height: 46px;
+                text-decoration: none;
+                color: #9A9CA5;
+                font-family: Lato;
+                font-weight: 700;
+                
+                border-radius: 4px;
+                text-align: center;
+                padding: 10px 0 0 0;
+            }
+            a:nth-of-type(1){
+                color: #7772F1;
+                border: 1px solid;
+            }
+        }
+
+        &__worflow{
+            margin: 60px 0 0 0;
+
+            &__title{
+                width: 390px;
+                font-family: Lato;
+                font-weight: 700;
+                font-size: 28px;
+                color: #1E212C;
+                line-height: 42px;
+            }
+
+            &__content{
+
+                &__points{
+                    margin: 24px 0 0 0;
+
+                    &__point{
+                        height: 26px;
+                        margin: 12px 0 0 0;
+                        display: flex;
+                        align-items: center;
+
+                        p{
+                            margin-left: 12px;
+                            font-family: Lato;
+                        }
+                    }
+                }
+
+                &__buttons{
+                    width: 328px;
+                    margin: 48px 0 0 0;
+                    display: flex;
+                    justify-content: space-between;
+
+                    &__more{
+                        width: 140px;
+                        height: 44px;
+                        border: 1px solid #7772F1;
+                        background: none;
+                        border-radius: 4px;
+                        font-family: Lato;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #7772F1;
+                    }
+
+                    &__try{
+                        width: 166px;
+                        height: 44px;
+                        border: none;
+                        background-color: #7772F1;
+                        border-radius: 4px;
+                        color: white;
+                        font-family: Lato;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+            }
         }
     }
 }
