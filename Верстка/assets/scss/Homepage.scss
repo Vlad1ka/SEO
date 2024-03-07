@@ -501,3 +501,79 @@ body{
         }
     }
 }
+
+.questions{
+    height: 806px;
+
+    &__background{
+        position: absolute;
+    }
+
+    &__content{
+        width: 1230px;
+        padding: 180px 0 0 345px;
+        display: flex;
+
+        &__text{
+            width: 600px;
+            &__title{
+                font-family: Lato;
+                font-weight: 900;
+                font-size: 46px;
+                color: #1E212C;
+                line-height: 59.8px;
+            }
+
+            &__plusesAndMinuses{
+                margin: 60px 0 0 0;
+                &__item{
+                    display: flex;
+                    align-items: center;
+                    margin: 24px 0 0 0;
+
+                    p{
+                        margin: 0 0 0 20px;
+                        font-family: Lato;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: #1E212C;
+                    }
+
+                    &__description{
+                        width: 556px;
+                        margin: 12px 0 0 40px;
+                        font-family: Lato;
+                        color: #787A80;
+                    }
+                }
+            }
+
+            &__btn{
+                width: 185px;
+                height: 44px;
+                border: none;
+                border-radius: 4px;
+                background-color: #7772F1;
+                margin: 60px 0 0 0;
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+                line-height: 44px;
+                display: flex;
+                align-items: center;
+                padding: 0 0 0 32px;
+                
+                &__img{
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        &__img{
+            margin: 0 0 0 142px;
+        }
+    }
+}
+

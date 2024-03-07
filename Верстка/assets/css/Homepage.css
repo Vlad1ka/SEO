@@ -421,4 +421,70 @@ body {
   font-size: 16px;
   letter-spacing: 0.5px;
   color: white;
+}
+
+.questions {
+  height: 806px;
+}
+.questions__background {
+  position: absolute;
+}
+.questions__content {
+  width: 1230px;
+  padding: 180px 0 0 345px;
+  display: flex;
+}
+.questions__content__text {
+  width: 600px;
+}
+.questions__content__text__title {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 46px;
+  color: #1E212C;
+  line-height: 59.8px;
+}
+.questions__content__text__plusesAndMinuses {
+  margin: 60px 0 0 0;
+}
+.questions__content__text__plusesAndMinuses__item {
+  display: flex;
+  align-items: center;
+  margin: 24px 0 0 0;
+}
+.questions__content__text__plusesAndMinuses__item p {
+  margin: 0 0 0 20px;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1E212C;
+}
+.questions__content__text__plusesAndMinuses__item__description {
+  width: 556px;
+  margin: 12px 0 0 40px;
+  font-family: Lato;
+  color: #787A80;
+}
+.questions__content__text__btn {
+  width: 185px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  background-color: #7772F1;
+  margin: 60px 0 0 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 32px;
+}
+.questions__content__text__btn__img {
+  margin-left: 8px;
+}
+.questions__content__img {
+  margin: 0 0 0 142px;
 }/*# sourceMappingURL=Homepage.css.map */
